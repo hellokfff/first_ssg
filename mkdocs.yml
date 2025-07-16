@@ -2,7 +2,7 @@ site_name: Rivers and lakes # Название сайта
 site_description: Rivers and lakes of Russia # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
-  logo: logo.svg # Ссылка на логотип сайта
+  logo: logo.jpg # Ссылка на логотип сайта
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
@@ -27,14 +27,14 @@ theme: # Тема сайта, информация о ее параметрах
     - scheme: default 
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: blue # Основной цвет
-      accent: purple # Акцентный цвет
+        name: Дневной режим # Всплывающий текст-подсказка
+      primary: light green # Основной цвет
+      accent: green # Акцентный цвет
     # Настройки тёмной темы
     - scheme: slate
       toggle:
         icon: material/weather-night
-        name: Позвать солнышко
+        name: Ночной режим
       primary: deep purple
       accent: blue
 
@@ -73,4 +73,4 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 NOVILLERO
+  &copy; 2025 Екатерина Ворошилова
